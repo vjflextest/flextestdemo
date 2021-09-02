@@ -1,4 +1,5 @@
 package xxt.oracle.apps.ak.xxperson.schema.server;
+
 import oracle.apps.fnd.framework.server.OAEntityImpl;
 import oracle.jbo.server.EntityDefImpl;
 import oracle.jbo.server.AttributeDefImpl;
@@ -13,9 +14,12 @@ import oracle.jbo.AttributeList;
 public class xxPersonDetailsEOImpl extends OAEntityImpl 
 {
   protected static final int PERSONID = 0;
+  
   protected static final int FIRSTNAME = 1;
+  
   protected static final int LASTNAME = 2;
   protected static final int EMAIL = 3;
+  
   protected static final int STUDENTFLAG = 4;
   protected static final int NAMEOFUNIVERSITY = 5;
   protected static final int LASTUPDATEDATE = 6;
